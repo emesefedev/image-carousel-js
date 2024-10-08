@@ -32,19 +32,15 @@ img {
 }
 
 #carousel-frame {
-    background-color: var(--color-dark);
-
     position: relative;
 
     width: 100%;
     height: auto;
 
-    padding-top: 56.25%;
+    padding-top: 66.66%;
 }
 
 #carousel {
-    background-color: transparent;
-
     display: flex;
 
     position: absolute; /* Posiciona el contenido dentro de la caja */
@@ -53,4 +49,4 @@ img {
 
     width: auto;
     height: 100%;
-}
+} 

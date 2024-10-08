@@ -8,6 +8,6 @@
                           
 ````
 
-🎯[Assignment](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions)
+🎯 [Assignment](https://www.theodinproject.com/lessons/node-path-javascript-dynamic-user-interface-interactions)
 
-📸[Result](https://emesefedev.github.io/image-carousel-js)
+📸 [Result](https://emesefedev.github.io/image-carousel-js)

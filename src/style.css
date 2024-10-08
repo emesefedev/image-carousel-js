@@ -16,3 +16,41 @@ body {
 
     padding: 32px;
 }
+
+img {
+    height:100%;
+}
+
+#carousel-container {
+    width: 75vw;
+
+    margin-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
+
+    overflow: hidden;
+}
+
+#carousel-frame {
+    background-color: var(--color-dark);
+
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    padding-top: 56.25%;
+}
+
+#carousel {
+    background-color: transparent;
+
+    display: flex;
+
+    position: absolute; /* Posiciona el contenido dentro de la caja */
+    top: 0;
+    left: 0;
+
+    width: auto;
+    height: 100%;
+}

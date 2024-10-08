@@ -10,6 +10,14 @@
     margin: 0;
 }
 
+a {
+    color: var(--color-light);
+}
+
+a:hover {
+    color: var(--color-lighter);
+}
+
 body {
     color: var(--color-primary);
     background-color: var(--color-darker);
@@ -50,3 +58,34 @@ img {
     width: auto;
     height: 100%;
 } 
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottom-center {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#image-dots {
+    display: flex;
+    justify-items: center;
+    gap: 1vw;
+}
+
+.dot {
+    height: 2vw;
+    width: 2vw;
+    background-color: var(--color-lighter);
+    opacity: 0.5;
+    border-radius: 50%;
+} 
+
+.dot-highlight {
+    opacity: 1;
+}
